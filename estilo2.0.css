@@ -1,0 +1,107 @@
+.body {
+    margin: 0;
+    padding-left: 0px;
+    font-family: sans-serif;
+}
+
+.titulo {
+    text-transform: capitalize;
+    position: relative;
+    text-align: center;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*lado izquierdo*/
+
+.lado1 {
+    text-align: right;
+    text-transform: capitalize;
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(900px - 30px);
+    float: left;
+    margin: 15px;
+}
+
+.nombre {
+    padding-top: 50px;
+}
+
+.contenido {
+    text-align: left;
+}
+
+.sub-titulo {
+    text-align: right;
+    background: #C4C4C4;
+}
+
+.estudiado {
+    text-align: right;
+    color: #7D0000;
+    margin-bottom: 1px;
+}
+
+.instituto {
+    margin: 1px;
+    text-align: right;
+}
+
+.ubicacion {
+    margin: 1px;
+    text-align: right;
+}
+
+/*lado derecho*/
+
+.lado2 {
+    text-transform: capitalize;
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(900px - 30px);
+    background: #C4C4C4;
+    float: left;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.image1 {
+    position: relative;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.links-contenedor {
+    border: 1px solid #464646;
+    list-style: none;
+}
+
+.image {
+    margin: 6px 40%;
+}
+
+.contenidoo {
+    margin: 0 8%;
+    text-align: center;
+    width: 70%;
+    margin-top: 0px;
+}
+
+.link {
+    margin: 0 30%;
+    margin-top: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
